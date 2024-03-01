@@ -5,7 +5,7 @@ function changeText() {
 
 function navigateTo(page) {
   // Check if the target page exists before redirecting
-  if (page === "index_1.html" || page === "index_2.html" || page === "index_3.html") {
+  if (page === "index.html" || page === "index_2.html" || page === "index_3.html") {
     window.location.href = page;
   } else {
     // Handle invalid page attempt (optional)
